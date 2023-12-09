@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Prototipo</string>
+    <string name="sign_in">Sign In</string>
+    <string name="e_mail">" E-mail"</string>
+    <string name="password">" Password"</string>
+    <string name="login">Login</string>
+    <string name="do_you_have_an_account">Do you have an account ?</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="minhas_chaves">Minhas Chaves</string>
+    <string name="logout">Logout</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">" E-mail"</string>
+    <string name="username">Username</string>
+    <string name="passwor">" Password"</string>
+    <string name="join">" Join"</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="password_again">Password Again</string>
+    <string name="lock_id">" Lock Id"</string>
+    <string name="lock_register">" Lock Register "</string>
+    <string name="go">" Go  !"</string>
+    <string name="back">Back</string>
+    <string name="adicinar">Adicionar</string>
+    <string name="nickname">" Nickname"</string>
+    <string name="fechadura">Fechadura</string>
+    <string name="open_close">Open/Close</string>
+    <string name="registration_data">Registration Data</string>
+</resources>

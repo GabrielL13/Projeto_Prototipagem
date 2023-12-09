@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004439775748",
+    "project_id": "prototipo-78ae2",
+    "storage_bucket": "prototipo-78ae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004439775748:android:9a9b794d69209f4c6fe351",
+        "android_client_info": {
+          "package_name": "com.example.prototipo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKOJTN_6roUiADVOnWyUCEXOfO0r4IQwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

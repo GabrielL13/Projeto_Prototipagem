@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
 
 public class Tela_Login extends AppCompatActivity {
 
@@ -34,7 +35,20 @@ public class Tela_Login extends AppCompatActivity {
         trocasenha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Tela_Login.this, "Falta Implementar", Toast.LENGTH_SHORT).show();
+                String email = emaillg.getText().toString().trim();
+                if (!TextUtils.isEmpty(email)) {
+                    auth.sendPasswordResetEmail(email)
+                            .addOnCompleteListener(Tela_Login.this, task -> {
+                                if (task.isSuccessful()) {
+                                    Toast.makeText(Tela_Login.this,"Link enviado para o seu email.", Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(Tela_Login.this,"Problema ao enviar link para email.", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                }else {
+                    Toast.makeText(Tela_Login.this, "Fill in all the spaces!!", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
 

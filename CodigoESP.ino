@@ -3,10 +3,10 @@
 #include <FirebaseESP32.h>
 
 
-#define ssid "moto g7" // Nome da sua rede Wi-Fi
-#define password "12345678" // Senha da sua rede Wi-Fi
-#define FIREBASE_HOST "prototipo-78ae2-default-rtdb.firebaseio.com/" // Substitua pelo nome do seu host do Firebase
-#define FIREBASE_AUTH "AIzaSyCKOJTN_6roUiADVOnWyUCEXOfO0r4IQwY" // Substitua pela sua chave de autenticação do Firebase
+#define ssid "moto g7" 
+#define password "12345678" 
+#define FIREBASE_HOST Host
+#define FIREBASE_AUTH Senha
 
 
 FirebaseData firebaseData;
